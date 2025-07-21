@@ -28,7 +28,7 @@ A powerful Streamlit-based application that leverages Generative AI and Large La
 - Hugging Face API Token
 
 ## ⚙️ Installation
-
+```bash
 1. **Clone the repository**
 git clone https://github.com/Akshat-Priyadarshi/GEN-AI.git
 cd GEN-AI
@@ -39,9 +39,9 @@ pip install -r requirements.txt
 3. **Set up Hugging Face API Token**
    - Get your API token from [Hugging Face](https://huggingface.co/settings/tokens)
    - Replace `"your_hugging_face_api_token"` in `main.py` with your actual token
-
+```
 ## 🚦 Usage
-
+```bash
 1. **Start the application**
 streamlit run main.py
 
@@ -51,15 +51,16 @@ streamlit run main.py
    - Wait for the processing to complete (embedding creation)
    - Enter your question in the main interface
    - Get AI-powered answers with source attribution
-
+```
 ## 📁 Project Structure
+```css
 GEN-AI/
 ├── main.py # Main Streamlit application
 ├── requirements.txt # Project dependencies
 ├── user_requests.csv # User interaction logs
 ├── faiss_store_huggingface.pkl # Cached vector embeddings (generated)
 └── README.md # Project documentation
-
+```
 ## 🔧 Configuration
 
 ### Model Parameters
